@@ -2,8 +2,9 @@ import { useState } from "react";
 import "./App.css";
 import { Button, ConfigProvider, Radio, RadioChangeEvent } from "antd";
 import DemoTable from "./components";
-import './theme/dark.css'
 import './theme/default.css'
+import './theme/dark.css'
+import './App.css'
 
 function App() {
   enum ThemeType {
